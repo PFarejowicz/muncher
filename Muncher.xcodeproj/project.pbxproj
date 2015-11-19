@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3E02BE1BFD7AB400C5524F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E02BD1BFD7AB400C5524F /* AppDelegate.swift */; };
+		6A3E02C01BFD7AB400C5524F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E02BF1BFD7AB400C5524F /* ViewController.swift */; };
+		6A3E02C31BFD7AB400C5524F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3E02C11BFD7AB400C5524F /* Main.storyboard */; };
+		6A3E02C51BFD7AB500C5524F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3E02C41BFD7AB500C5524F /* Assets.xcassets */; };
+		6A3E02C81BFD7AB500C5524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3E02C61BFD7AB500C5524F /* LaunchScreen.storyboard */; };
+		6A3E02D31BFD7AB500C5524F /* MuncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E02D21BFD7AB500C5524F /* MuncherTests.swift */; };
+		6A3E02DE1BFD7AB500C5524F /* MuncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3E02DD1BFD7AB500C5524F /* MuncherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A3E02CF1BFD7AB500C5524F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A3E02B21BFD7AB400C5524F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A3E02B91BFD7AB400C5524F;
+			remoteInfo = Muncher;
+		};
+		6A3E02DA1BFD7AB500C5524F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A3E02B21BFD7AB400C5524F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A3E02B91BFD7AB400C5524F;
+			remoteInfo = Muncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3E02BA1BFD7AB400C5524F /* Muncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3E02BD1BFD7AB400C5524F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A3E02BF1BFD7AB400C5524F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A3E02C21BFD7AB400C5524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A3E02C41BFD7AB500C5524F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A3E02C71BFD7AB500C5524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A3E02C91BFD7AB500C5524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3E02CE1BFD7AB500C5524F /* MuncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3E02D21BFD7AB500C5524F /* MuncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncherTests.swift; sourceTree = "<group>"; };
+		6A3E02D41BFD7AB500C5524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3E02D91BFD7AB500C5524F /* MuncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3E02DD1BFD7AB500C5524F /* MuncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncherUITests.swift; sourceTree = "<group>"; };
+		6A3E02DF1BFD7AB500C5524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A3E02B71BFD7AB400C5524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02CB1BFD7AB500C5524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02D61BFD7AB500C5524F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3E02B11BFD7AB400C5524F = {
+			isa = PBXGroup;
+			children = (
+				6A3E02BC1BFD7AB400C5524F /* Muncher */,
+				6A3E02D11BFD7AB500C5524F /* MuncherTests */,
+				6A3E02DC1BFD7AB500C5524F /* MuncherUITests */,
+				6A3E02BB1BFD7AB400C5524F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A3E02BB1BFD7AB400C5524F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A3E02BA1BFD7AB400C5524F /* Muncher.app */,
+				6A3E02CE1BFD7AB500C5524F /* MuncherTests.xctest */,
+				6A3E02D91BFD7AB500C5524F /* MuncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A3E02BC1BFD7AB400C5524F /* Muncher */ = {
+			isa = PBXGroup;
+			children = (
+				6A3E02BD1BFD7AB400C5524F /* AppDelegate.swift */,
+				6A3E02BF1BFD7AB400C5524F /* ViewController.swift */,
+				6A3E02C11BFD7AB400C5524F /* Main.storyboard */,
+				6A3E02C41BFD7AB500C5524F /* Assets.xcassets */,
+				6A3E02C61BFD7AB500C5524F /* LaunchScreen.storyboard */,
+				6A3E02C91BFD7AB500C5524F /* Info.plist */,
+			);
+			path = Muncher;
+			sourceTree = "<group>";
+		};
+		6A3E02D11BFD7AB500C5524F /* MuncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3E02D21BFD7AB500C5524F /* MuncherTests.swift */,
+				6A3E02D41BFD7AB500C5524F /* Info.plist */,
+			);
+			path = MuncherTests;
+			sourceTree = "<group>";
+		};
+		6A3E02DC1BFD7AB500C5524F /* MuncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3E02DD1BFD7AB500C5524F /* MuncherUITests.swift */,
+				6A3E02DF1BFD7AB500C5524F /* Info.plist */,
+			);
+			path = MuncherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A3E02B91BFD7AB400C5524F /* Muncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3E02E21BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "Muncher" */;
+			buildPhases = (
+				6A3E02B61BFD7AB400C5524F /* Sources */,
+				6A3E02B71BFD7AB400C5524F /* Frameworks */,
+				6A3E02B81BFD7AB400C5524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muncher;
+			productName = Muncher;
+			productReference = 6A3E02BA1BFD7AB400C5524F /* Muncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A3E02CD1BFD7AB500C5524F /* MuncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3E02E51BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "MuncherTests" */;
+			buildPhases = (
+				6A3E02CA1BFD7AB500C5524F /* Sources */,
+				6A3E02CB1BFD7AB500C5524F /* Frameworks */,
+				6A3E02CC1BFD7AB500C5524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3E02D01BFD7AB500C5524F /* PBXTargetDependency */,
+			);
+			name = MuncherTests;
+			productName = MuncherTests;
+			productReference = 6A3E02CE1BFD7AB500C5524F /* MuncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A3E02D81BFD7AB500C5524F /* MuncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3E02E81BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "MuncherUITests" */;
+			buildPhases = (
+				6A3E02D51BFD7AB500C5524F /* Sources */,
+				6A3E02D61BFD7AB500C5524F /* Frameworks */,
+				6A3E02D71BFD7AB500C5524F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3E02DB1BFD7AB500C5524F /* PBXTargetDependency */,
+			);
+			name = MuncherUITests;
+			productName = MuncherUITests;
+			productReference = 6A3E02D91BFD7AB500C5524F /* MuncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A3E02B21BFD7AB400C5524F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Peter Farejowicz";
+				TargetAttributes = {
+					6A3E02B91BFD7AB400C5524F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					6A3E02CD1BFD7AB500C5524F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A3E02B91BFD7AB400C5524F;
+					};
+					6A3E02D81BFD7AB500C5524F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 6A3E02B91BFD7AB400C5524F;
+					};
+				};
+			};
+			buildConfigurationList = 6A3E02B51BFD7AB400C5524F /* Build configuration list for PBXProject "Muncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A3E02B11BFD7AB400C5524F;
+			productRefGroup = 6A3E02BB1BFD7AB400C5524F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A3E02B91BFD7AB400C5524F /* Muncher */,
+				6A3E02CD1BFD7AB500C5524F /* MuncherTests */,
+				6A3E02D81BFD7AB500C5524F /* MuncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A3E02B81BFD7AB400C5524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3E02C81BFD7AB500C5524F /* LaunchScreen.storyboard in Resources */,
+				6A3E02C51BFD7AB500C5524F /* Assets.xcassets in Resources */,
+				6A3E02C31BFD7AB400C5524F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02CC1BFD7AB500C5524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02D71BFD7AB500C5524F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A3E02B61BFD7AB400C5524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3E02C01BFD7AB400C5524F /* ViewController.swift in Sources */,
+				6A3E02BE1BFD7AB400C5524F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02CA1BFD7AB500C5524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3E02D31BFD7AB500C5524F /* MuncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3E02D51BFD7AB500C5524F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3E02DE1BFD7AB500C5524F /* MuncherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A3E02D01BFD7AB500C5524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A3E02B91BFD7AB400C5524F /* Muncher */;
+			targetProxy = 6A3E02CF1BFD7AB500C5524F /* PBXContainerItemProxy */;
+		};
+		6A3E02DB1BFD7AB500C5524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A3E02B91BFD7AB400C5524F /* Muncher */;
+			targetProxy = 6A3E02DA1BFD7AB500C5524F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A3E02C11BFD7AB400C5524F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3E02C21BFD7AB400C5524F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A3E02C61BFD7AB500C5524F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3E02C71BFD7AB500C5524F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A3E02E01BFD7AB500C5524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A3E02E11BFD7AB500C5524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A3E02E31BFD7AB500C5524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Muncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A3E02E41BFD7AB500C5524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Muncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.Muncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A3E02E61BFD7AB500C5524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.MuncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muncher.app/Muncher";
+			};
+			name = Debug;
+		};
+		6A3E02E71BFD7AB500C5524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.MuncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muncher.app/Muncher";
+			};
+			name = Release;
+		};
+		6A3E02E91BFD7AB500C5524F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.MuncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muncher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A3E02EA1BFD7AB500C5524F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs147.MuncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Muncher;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A3E02B51BFD7AB400C5524F /* Build configuration list for PBXProject "Muncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3E02E01BFD7AB500C5524F /* Debug */,
+				6A3E02E11BFD7AB500C5524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3E02E21BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "Muncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3E02E31BFD7AB500C5524F /* Debug */,
+				6A3E02E41BFD7AB500C5524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A3E02E51BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "MuncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3E02E61BFD7AB500C5524F /* Debug */,
+				6A3E02E71BFD7AB500C5524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A3E02E81BFD7AB500C5524F /* Build configuration list for PBXNativeTarget "MuncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3E02E91BFD7AB500C5524F /* Debug */,
+				6A3E02EA1BFD7AB500C5524F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A3E02B21BFD7AB400C5524F /* Project object */;
+}
