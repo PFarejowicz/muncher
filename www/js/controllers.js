@@ -6,14 +6,14 @@ angular.module('starter.controllers', [])
 
 .controller('OutingsCtrl', function($scope, $location) {
   $scope.openChat = function() {
-  	$location.path('tab/chats/');
+  	$location.path('messages');
   };
 
   $scope.items = [
-    {title: "Alpha Eta Brunch", description: "Monica, Gloria, Rebecca... (15)", img: "img/monica.jpg"},
-    {title: "Date Night", description: "Yifei", img: "img/peter.jpg"},
-    {title: "CS 147 Team Dinner", description: "KJ, Monica, Gloria, Leigh (5)", img: "img/gloria.jpg"},
-    {title: "BASES BD Dinner", description: "Victoria, Sunny, Jonathan (4)", img: "img/kj.jpg"},
+    {title: "Alpha Eta Brunch", description: "Monica, Gloria, Rebecca... (15)", img: "img/time1.png"},
+    {title: "Date Night", description: "Yifei", img: "img/time2.png"},
+    {title: "CS 147 Team Dinner", description: "KJ, Monica, Gloria, Leigh (5)", img: "img/time3.png"},
+    {title: "BASES BD Dinner", description: "Victoria, Sunny, Jonathan (4)", img: "img/time4.png"},
   ]
   $scope.shouldShowDelete = false;
   $scope.shouldShowReorder = false;
