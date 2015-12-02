@@ -222,10 +222,10 @@ angular.module('starter.controllers', [])
   };
 
   $scope.items = [
-    {title: "Alpha Eta Brunch", description: "Monica, Gloria, Rebecca... (15)"},
-    {title: "Date Night", description: "Yifei"},
-    {title: "CS 147 Team Dinner", description: "KJ, Monica, Gloria, Leigh (5)"},
-    {title: "BASES BD Dinner", description: "Victoria, Sunny, Jonathan (4)"},
+    {title: "Alpha Eta Brunch", description: "Monica, Gloria, Rebecca... (15)", img: "img/monica.jpg"},
+    {title: "Date Night", description: "Yifei", img: "img/peter.jpg"},
+    {title: "CS 147 Team Dinner", description: "KJ, Monica, Gloria, Leigh (5)", img: "img/gloria.jpg"},
+    {title: "BASES BD Dinner", description: "Victoria, Sunny, Jonathan (4)", img: "img/kj.jpg"},
   ]
   $scope.shouldShowDelete = false;
   $scope.shouldShowReorder = false;
