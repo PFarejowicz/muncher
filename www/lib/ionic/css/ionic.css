@@ -2782,14 +2782,14 @@ a.subdued {
     .bar.bar-light.bar-footer {
       background-image: linear-gradient(180deg, #ddd, #ddd 50%, transparent 50%); }
   .bar.bar-stable {
-    border-color: #b2b2b2;
-    background-color: #f8f8f8;
+    border-color: #d8d8d8;
+    background-color: #d8d8d8;
     background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
     color: #444; }
     .bar.bar-stable .title {
       color: #444; }
     .bar.bar-stable.bar-footer {
-      background-image: linear-gradient(180deg, #b2b2b2, #b2b2b2 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #d8d8d8, #d8d8d8 50%, transparent 50%); }
   .bar.bar-positive {
     border-color: #145fd7;
     background-color: #4a87ee;
@@ -2959,9 +2959,10 @@ a.subdued {
     box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15); }
   .bar-stable .button.button-clear {
     border-color: transparent;
-    background: none;
+    border-radius: 4px;
+    background: #505050;
     box-shadow: none;
-    color: #444;
+    color: white;
     font-size: 17px; }
   .bar-stable .button.button-icon {
     border-color: transparent;
@@ -5049,6 +5050,9 @@ input, button, select, textarea {
   line-height: 18px; }
 
 .item-input-wrapper ~ .button {
+  margin-left: 10.66667px; }
+
+.button ~ .item-input-wrapper {
   margin-left: 10.66667px; }
 
 .input-label {
