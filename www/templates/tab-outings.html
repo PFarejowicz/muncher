@@ -5,14 +5,15 @@
           show-reorder="shouldShowReorder"
           can-swipe="listCanSwipe">
         <ion-item ng-repeat="item in items"
-                  class="item-thumbnail-left">
+                  class="item-thumbnail-left"
+                  ng-click="openChat()">
 
           <img ng-src="{{item.img}}">
           <h2>{{item.title}}</h2>
           <p>
             {{item.description}}
           </p>
-          <button class="button-icon icon ion-ios-arrow-right"></button>
+          <button class="button-icon icon ion-ios-arrow-right" ng-click="openChat()"></button>
 
           <ion-option-button class="button-info"
                              ng-click="edit(item)">
