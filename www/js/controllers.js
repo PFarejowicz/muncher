@@ -80,7 +80,9 @@ angular.module('starter.controllers', [])
     $scope.messages.push({
       userId: '54321',
       text: $scope.data.message,
-      time: d
+      time: d,
+      width: "0",
+      height: "0"
     });
 
     if (genieIndex == 0) {
@@ -111,7 +113,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: genieText[4],
-        time: d
+        time: d,
+        img: "img/restaurant1.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 8) {
