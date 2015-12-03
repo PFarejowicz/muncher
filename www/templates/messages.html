@@ -16,7 +16,10 @@
          class="messages">
 
       <div class="message" ng-class="{'slide-right': showTime, '': !showTime}">
-        <span class="bubble">{{ message.text }}</span>
+        <span class="bubble">
+          {{ message.text }}
+          <img width="{{message.width}}" height="{{message.height}}" ng-src="{{message.img}}">
+        </span>
       </div>
 
       <div class="time" ng-class="{'slide-right': showTime, '': !showTime}">{{message.time}}</div>
