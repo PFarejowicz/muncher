@@ -74,8 +74,8 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/1.png",
-          width: "210",
-          height: "120"
+          width: "170",
+          height: "105"
         });
         genieIndex++;
         pollIndex++;
@@ -104,7 +104,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/8.png",
-          width: "200",
+          width: "170",
           height: "142"
         });
         genieIndex++;
@@ -113,7 +113,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/9.png",
-          width: "200",
+          width: "170",
           height: "142"
         });
         genieIndex++;
@@ -122,7 +122,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/10.png",
-          width: "200",
+          width: "170",
           height: "142"
         });
         genieIndex++;
@@ -131,7 +131,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/11.png",
-          width: "200",
+          width: "170",
           height: "142"
         });
         genieIndex++;
@@ -140,7 +140,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/12.png",
-          width: "200",
+          width: "170",
           height: "310"
         });
         genieIndex++;
@@ -158,14 +158,14 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/14.png",
-          width: "200",
-          height: "70"
+          width: "170",
+          height: "60"
         });
         $scope.messages.push({
           userId: '12345',
           time: d,
           img: "img/15.png",
-          width: "200",
+          width: "170",
           height: "160"
         });
         genieIndex++;
@@ -174,7 +174,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/16.png",
-          width: "200",
+          width: "170",
           height: "110"
         });
         genieIndex++;
@@ -183,7 +183,7 @@ angular.module('starter.controllers', [])
           userId: '12345',
           time: d,
           img: "img/17.png",
-          width: "200",
+          width: "170",
           height: "50"
         });
         genieIndex++;
@@ -204,7 +204,7 @@ angular.module('starter.controllers', [])
         userId: '12345',
         time: d,
         img: "img/2.png",
-        width: "190",
+        width: "170",
         height: "60"
       });
       pollIndex++;
@@ -214,8 +214,8 @@ angular.module('starter.controllers', [])
         userId: '12345',
         time: d,
         img: "img/4.png",
-        width: "200",
-        height: "70"
+        width: "170",
+        height: "55"
       });
       pollIndex++;
       genieIndex++;
@@ -224,8 +224,8 @@ angular.module('starter.controllers', [])
         userId: '12345',
         time: d,
         img: "img/6.png",
-        width: "200",
-        height: "80"
+        width: "170",
+        height: "65"
       });
       pollIndex++;
       genieIndex++;
@@ -233,7 +233,7 @@ angular.module('starter.controllers', [])
         userId: '12345',
         time: d,
         img: "img/7.png",
-        width: "200",
+        width: "170",
         height: "142"
       });
       genieIndex++;
