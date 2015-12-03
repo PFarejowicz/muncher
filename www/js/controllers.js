@@ -89,7 +89,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: genieText[0],
-        time: d
+        time: d,
+        img: "img/1.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
       pollIndex++;
@@ -97,7 +100,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: genieText[1],
-        time: d
+        time: d,
+        img: "img/3.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
       pollIndex++;
@@ -105,7 +111,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: genieText[2],
-        time: d
+        time: d,
+        img: "img/5.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
       pollIndex++;
@@ -114,7 +123,7 @@ angular.module('starter.controllers', [])
         userId: '12345',
         text: genieText[4],
         time: d,
-        img: "img/restaurant1.png",
+        img: "img/8.png",
         width: "200",
         height: "142"
       });
@@ -123,61 +132,88 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: genieText[5],
-        time: d
+        time: d,
+        img: "img/9.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 9) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[6],
-        time: d
+        time: d,
+        img: "img/10.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 10) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[7],
-        time: d
+        time: d,
+        img: "img/11.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 11) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[8],
-        time: d
+        time: d,
+        img: "img/12.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 12) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[9],
-        time: d
+        time: d,
+        img: "img/13.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 13) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[10],
-        time: d
+        time: d,
+        img: "img/14.png",
+        width: "200",
+        height: "142"
       });
       $scope.messages.push({
         userId: '12345',
         text: genieText[11],
-        time: d
+        time: d,
+        img: "img/15.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 14) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[12],
-        time: d
+        time: d,
+        img: "img/16.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     } else if (genieIndex == 15) {
       $scope.messages.push({
         userId: '12345',
         text: genieText[13],
-        time: d
+        time: d,
+        img: "img/17.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     }
@@ -195,7 +231,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: pollText[0],
-        time: d
+        time: d,
+        img: "img/2.png",
+        width: "200",
+        height: "142"
       });
       pollIndex++;
       genieIndex++;
@@ -203,7 +242,10 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: pollText[1],
-        time: d
+        time: d,
+        img: "img/4.png",
+        width: "200",
+        height: "142"
       });
       pollIndex++;
       genieIndex++;
@@ -211,14 +253,20 @@ angular.module('starter.controllers', [])
       $scope.messages.push({
         userId: '12345',
         text: pollText[2],
-        time: d
+        time: d,
+        img: "img/6.png",
+        width: "200",
+        height: "142"
       });
       pollIndex++;
       genieIndex++;
       $scope.messages.push({
         userId: '12345',
         text: genieText[3],
-        time: d
+        time: d,
+        img: "img/7.png",
+        width: "200",
+        height: "142"
       });
       genieIndex++;
     }
