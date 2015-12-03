@@ -1,10 +1,22 @@
 angular.module('starter.controllers', [])
 
-.controller('ProfileCtrl', function($scope) {})
+.controller('ProfileCtrl', function($scope, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
+})
 
-.controller('DiscoverCtrl', function($scope) {})
+.controller('DiscoverCtrl', function($scope, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
+})
 
 .controller('OutingsCtrl', function($scope, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
+
   $scope.openChat = function() {
   	$location.path('messages');
   };
@@ -20,11 +32,22 @@ angular.module('starter.controllers', [])
   $scope.listCanSwipe = true
 })
 
-.controller('HistoryCtrl', function($scope) {})
+.controller('HistoryCtrl', function($scope, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
+})
 
-.controller('SettingsCtrl', function($scope) {})
+.controller('SettingsCtrl', function($scope, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
+})
 
-.controller('MessagesCtrl', function($scope, $timeout, $ionicScrollDelegate) {
+.controller('MessagesCtrl', function($scope, $timeout, $ionicScrollDelegate, $location) {
+  $scope.goHome = function() {
+    $location.path('outings');
+  };
 
   $scope.showTime = true;
 
