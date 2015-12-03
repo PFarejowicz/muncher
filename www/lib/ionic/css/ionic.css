@@ -2752,7 +2752,6 @@ a.subdued {
   background-size: 0; }
   @media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .bar {
-      border: none;
       background-image: linear-gradient(0deg, #ddd, #ddd 50%, transparent 50%);
       background-position: bottom;
       background-size: 100% 1px;
@@ -2800,7 +2799,7 @@ a.subdued {
     .bar.bar-positive.bar-footer {
       background-image: linear-gradient(180deg, #145fd7, #145fd7 50%, transparent 50%); }
   .bar.bar-calm {
-    border-color: #df583b;
+    border-color: white;
     background-color: #df583b;
     background-image: linear-gradient(0deg, #df583b, #df583b 50%, transparent 50%);
     color: #fff; }
