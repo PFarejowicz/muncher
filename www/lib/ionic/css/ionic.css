@@ -6214,8 +6214,8 @@ a.button {
   flex: 1;
   display: block;
   overflow: hidden;
-  padding: 0 16px;
-  margin: 5px;
+  padding: 0 5px;
+  margin: 2px;
   width: 0;
   border-width: 1px;
   border-radius: 5px;
