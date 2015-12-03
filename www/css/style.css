@@ -69,6 +69,7 @@
   transform: translate3d(120px, 0, 0); }
 
 .messages.other span.bubble {
+  padding: 12px;
   color: black;
   background-color: #d8d8d8; }
 

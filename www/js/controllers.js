@@ -88,40 +88,36 @@ angular.module('starter.controllers', [])
     if (genieIndex == 0) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[0],
         time: d,
         img: "img/1.png",
-        width: "200",
-        height: "142"
+        width: "210",
+        height: "120"
       });
       genieIndex++;
       pollIndex++;
     } else if (genieIndex == 2) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[1],
         time: d,
         img: "img/3.png",
-        width: "200",
-        height: "142"
+        width: "170",
+        height: "80"
       });
       genieIndex++;
       pollIndex++;
     } else if (genieIndex == 4) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[2],
         time: d,
         img: "img/5.png",
-        width: "200",
-        height: "142"
+        width: "170",
+        height: "100"
       });
       genieIndex++;
       pollIndex++;
     } else if (genieIndex == 7) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[4],
         time: d,
         img: "img/8.png",
         width: "200",
@@ -131,7 +127,6 @@ angular.module('starter.controllers', [])
     } else if (genieIndex == 8) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[5],
         time: d,
         img: "img/9.png",
         width: "200",
@@ -141,7 +136,6 @@ angular.module('starter.controllers', [])
     } else if (genieIndex == 9) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[6],
         time: d,
         img: "img/10.png",
         width: "200",
@@ -151,7 +145,6 @@ angular.module('starter.controllers', [])
     } else if (genieIndex == 10) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[7],
         time: d,
         img: "img/11.png",
         width: "200",
@@ -161,59 +154,53 @@ angular.module('starter.controllers', [])
     } else if (genieIndex == 11) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[8],
         time: d,
         img: "img/12.png",
         width: "200",
-        height: "142"
+        height: "310"
       });
       genieIndex++;
     } else if (genieIndex == 12) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[9],
         time: d,
         img: "img/13.png",
-        width: "200",
-        height: "142"
+        width: "90",
+        height: "30"
       });
       genieIndex++;
     } else if (genieIndex == 13) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[10],
         time: d,
         img: "img/14.png",
         width: "200",
-        height: "142"
+        height: "70"
       });
       $scope.messages.push({
         userId: '12345',
-        text: genieText[11],
         time: d,
         img: "img/15.png",
         width: "200",
-        height: "142"
+        height: "160"
       });
       genieIndex++;
     } else if (genieIndex == 14) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[12],
         time: d,
         img: "img/16.png",
         width: "200",
-        height: "142"
+        height: "110"
       });
       genieIndex++;
     } else if (genieIndex == 15) {
       $scope.messages.push({
         userId: '12345',
-        text: genieText[13],
         time: d,
         img: "img/17.png",
         width: "200",
-        height: "142"
+        height: "50"
       });
       genieIndex++;
     }
@@ -230,39 +217,35 @@ angular.module('starter.controllers', [])
     if (pollIndex == 1) {
       $scope.messages.push({
         userId: '12345',
-        text: pollText[0],
         time: d,
         img: "img/2.png",
-        width: "200",
-        height: "142"
+        width: "190",
+        height: "60"
       });
       pollIndex++;
       genieIndex++;
     } else if (pollIndex == 3) {
       $scope.messages.push({
         userId: '12345',
-        text: pollText[1],
         time: d,
         img: "img/4.png",
         width: "200",
-        height: "142"
+        height: "70"
       });
       pollIndex++;
       genieIndex++;
     } else if (pollIndex == 5) {
       $scope.messages.push({
         userId: '12345',
-        text: pollText[2],
         time: d,
         img: "img/6.png",
         width: "200",
-        height: "142"
+        height: "80"
       });
       pollIndex++;
       genieIndex++;
       $scope.messages.push({
         userId: '12345',
-        text: genieText[3],
         time: d,
         img: "img/7.png",
         width: "200",
