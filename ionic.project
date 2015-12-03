@@ -1,7 +1,7 @@
 {
   "name": "muncher",
   "email": "",
-  "app_id": "",
+  "app_id": "59c3fe5d",
   "package_name": "",
   "gulpStartupTasks": [
     "sass",
